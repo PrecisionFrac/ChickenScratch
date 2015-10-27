@@ -76,8 +76,9 @@
   <ItemGroup>
     <Compile Include="Base\BusinessBase.cs" />
     <Compile Include="Customer\CustomerBusiness.cs" />
+    <Compile Include="Customer\Interface\IAddressBusiness.cs" />
     <Compile Include="Customer\Interface\ICustomerBusiness.cs" />
-    <Compile Include="PayPal\AddressBusiness.cs" />
+    <Compile Include="Customer\AddressBusiness.cs" />
     <Compile Include="PayPal\CreditCardBusiness.cs" />
     <Compile Include="PayPal\PaymentBusiness.cs" />
     <Compile Include="PayPal\Base\PayPalBusinessBase.cs" />
@@ -94,9 +95,9 @@
       <Project>{c2584765-9608-42f0-86b4-00a6c4d3b3c8}</Project>
       <Name>Util</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\Data.csproj">
+    <ProjectReference Include="..\Data\DataAccess.csproj">
       <Project>{1775d637-6fe6-42f9-a303-eee8930b2b4e}</Project>
-      <Name>Data</Name>
+      <Name>DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{8ac9ff97-28b8-4e0d-ae44-a9c2b4711fa5}</Project>

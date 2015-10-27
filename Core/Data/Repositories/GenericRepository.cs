@@ -45,12 +45,12 @@ namespace ChickenScratch.Data.Repositories
             _entities.Set<E>().Add(entity);
         }
 
-        public virtual void Delete(E entity)
+        public virtual void Remove(E entity)
         {
             _entities.Set<E>().Remove(entity);
         }
 
-        public virtual void Update(E entity)
+        public virtual void Entry(E entity)
         {
             _entities.Entry(entity).State = EntityState.Modified;
         }

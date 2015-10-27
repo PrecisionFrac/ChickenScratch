@@ -109,7 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="WS.svc" />
-    <Content Include="API.svc" />
+    <Content Include="JSON.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -119,11 +119,11 @@
     <Compile Include="WS.svc.cs">
       <DependentUpon>WS.svc</DependentUpon>
     </Compile>
-    <Compile Include="Interface\IAPI.cs" />
-    <Compile Include="API.svc.cs">
-      <DependentUpon>API.svc</DependentUpon>
+    <Compile Include="Interface\IJSON.cs" />
+    <Compile Include="JSON.svc.cs">
+      <DependentUpon>JSON.svc</DependentUpon>
     </Compile>
-    <Compile Include="Interface\IXML_V1.cs" />
+    <Compile Include="Interface\IXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

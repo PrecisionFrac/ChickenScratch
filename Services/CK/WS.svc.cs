@@ -28,42 +28,41 @@ namespace ChickenScratch.Services
             return response;
         }
 
+        //public Response<Customer> UpdateCustomer(Customer customer)
+        //{
+        //    Response<Customer> response = null;
+        //    CustomerBusiness customerBusiness = null;
 
-        public Response<Customer> UpdateCustomer(Customer customer)
-        {
-            Response<Customer> response = null;
-            CustomerBusiness customerBusiness = null;
+        //    try
+        //    {
+        //        customerBusiness = new CustomerBusiness();
+        //        return customerBusiness.Update(customer);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        response = new Response<Customer>(null, ResponseStatus.Error, ex.Message);
+        //    }
 
-            try
-            {
-                customerBusiness = new CustomerBusiness();
-                return customerBusiness.Update(customer);
-            }
-            catch (Exception ex)
-            {
-                response = new Response<Customer>(null, ResponseStatus.Error, ex.Message);
-            }
+        //    return response;
+        //}
 
-            return response;
-        }
+        //public Response<Customer> DeleteCustomer(Customer customer)
+        //{
+        //    Response<Customer> response = null;
+        //    CustomerBusiness customerBusiness = null;
 
-        public Response<Customer> DeleteCustomer(Customer customer)
-        {
-            Response<Customer> response = null;
-            CustomerBusiness customerBusiness = null;
+        //    try
+        //    {
+        //        customerBusiness = new CustomerBusiness();
+        //        return customerBusiness.Delete(customer);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        response = new Response<Customer>(null, ResponseStatus.Error, ex.Message);
+        //    }
 
-            try
-            {
-                customerBusiness = new CustomerBusiness();
-                return customerBusiness.Delete(customer);
-            }
-            catch (Exception ex)
-            {
-                response = new Response<Customer>(null, ResponseStatus.Error, ex.Message);
-            }
-
-            return response;
-        }
+        //    return response;
+        //}
 
         #endregion Customer
     }

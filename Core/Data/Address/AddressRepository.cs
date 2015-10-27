@@ -1,8 +1,7 @@
-﻿using System;
-using ChickenScratch.Data.Repositories;
+﻿using ChickenScratch.Data.Repositories;
 using System.Collections.Generic;
 
-namespace ChickenScratch.Data.Customer
+namespace ChickenScratch.Data
 {
     public class AddressRepository : GenericRepository<ChickenScratchContext, Model.Address>, IAddressRepository
     {
@@ -27,7 +26,7 @@ namespace ChickenScratch.Data.Customer
 
         public Model.Address Update(Model.Address address)
         {
-            base.Update(address);
+            base.Entry(address);
             return address;
         }
 
@@ -41,7 +40,7 @@ namespace ChickenScratch.Data.Customer
 
         public void Delete(Model.Address address)
         {
-            base.Delete(address);
+            base.Remove(address);
         }
 
         public void Deletes(ICollection<Model.Address> addresses)

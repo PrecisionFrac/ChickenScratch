@@ -5,7 +5,7 @@ namespace ChickenScratch.Data.Customer
 {
     public interface ICustomerRepository : IGenericRepository<Model.Customer>
     {
-        Response<Model.Customer> Add(Model.Customer customer);
+        Response<Model.Customer> Insert(Model.Customer customer);
 
         Model.Customer Update(Model.Customer customer);
 

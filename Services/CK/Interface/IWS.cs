@@ -12,12 +12,11 @@ namespace ChickenScratch.Services
         [OperationContract]
         Response<Customer> CreateCustomer(Customer customer);
 
-        [OperationContract]
-        Response<Customer> UpdateCustomer(Customer customer);
-
-
-        [OperationContract]
-        Response<Customer> DeleteCustomer(Customer customer);
+        //[OperationContract]
+        //Response<Customer> UpdateCustomer(Customer customer);
+        
+        //[OperationContract]
+        //Response<Customer> DeleteCustomer(Customer customer);
 
         #endregion Customer
     }

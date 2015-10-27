@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Logic", "Core\Busi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util\Util.csproj", "{C2584765-9608-42F0-86B4-00A6C4D3B3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Core\Data\Data.csproj", "{1775D637-6FE6-42F9-A303-EEE8930B2B4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "Core\Data\DataAccess.csproj", "{1775D637-6FE6-42F9-A303-EEE8930B2B4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{3187F1D9-8149-4192-9B90-9E36B9E0B769}"
 EndProject

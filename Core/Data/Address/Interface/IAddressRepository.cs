@@ -1,7 +1,7 @@
 ﻿using ChickenScratch.Data.Repositories;
 using System.Collections.Generic;
 
-namespace ChickenScratch.Data.Customer
+namespace ChickenScratch.Data
 {
     public interface IAddressRepository : IGenericRepository<Model.Address>
     {

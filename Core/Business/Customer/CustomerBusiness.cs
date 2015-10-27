@@ -1,10 +1,10 @@
 ﻿using ChickenScratch.Data;
 using ChickenScratch.Data.Customer;
-using ChickenScratch.Model;
+using ChickenScratch.Util.Extensions;
 using ChickenScratch.Util.Services;
 using Microsoft.Practices.EnterpriseLibrary.Validation;
+using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;
 using System;
-using System.Linq;
 
 namespace ChickenScratch.Business
 {
@@ -20,7 +20,7 @@ namespace ChickenScratch.Business
             ICustomerRepository customerRepository = null;
             IAddressRepository addressRepository = null;
             Validator<Model.Customer> validator = ValidationFactory.CreateValidator<Model.Customer>("Create");
-            Validator<Model.Address> validatorAddress = ValidationFactory.CreateValidator<Model.Address>("Create");
+            Validator validatorAddress = new ObjectCollectionValidator(typeof(Model.Address), "Create");
 
             try
             {
@@ -40,40 +40,64 @@ namespace ChickenScratch.Business
                     return response;
                 }
 
-                if (customer.Addresses == null || customer.Addresses.Count == 0)
+                if (customer.Addresses.IsNullOrEmpty())
                 {
                     response.Status = ResponseStatus.ErrorValidation;
                     response.ErrorValue = (int)ErrorCode.InvalidData;
 
-                    response.Validations.Add("Address", "Address must have onde");
+                    response.Validations.Add("Address", "Address must have at least one");
 
                     return response;
                 }
                 else
                 {
-                    foreach (Model.Address address in customer.Addresses)
+                    if (!validatorAddress.Validate(customer.Addresses).IsValid)
                     {
-                        if (!validatorAddress.Validate(address).IsValid)
+                        response.Status = ResponseStatus.ErrorValidation;
+                        response.ErrorValue = (int)ErrorCode.InvalidData;
+
+                        foreach (var result in validatorAddress.Validate(customer.Addresses))
                         {
-                            response.Status = ResponseStatus.ErrorValidation;
-                            response.ErrorValue = (int)ErrorCode.InvalidData;
+                            if (!response.Validations.ContainsKey(result.Key))
+                                response.Validations.Add(result.Key, result.Message);
+                        }
 
-                            foreach (var result in validatorAddress.Validate(address))
+                        return response;
+                    }
+                    else // Validate Email
+                    {
+                        foreach (Model.Address address in customer.Addresses)
+                        {
+                            if (!address.PrimaryEmail.IsNullOrEmpty())
                             {
-                                if (!response.Validations.ContainsKey(result.Key))
-                                    response.Validations.Add(result.Key, result.Message);
-                            }
+                                Validator<Model.Address> valEmail = ValidationFactory.CreateValidator<Model.Address>("Email");
 
-                            return response;
+                                if (!valEmail.Validate(address).IsValid)
+                                {
+                                    response.Status = ResponseStatus.ErrorValidation;
+                                    response.ErrorValue = (int)ErrorCode.InvalidData;
+
+                                    foreach (var result in valEmail.Validate(address))
+                                    {
+                                        if (!response.Validations.ContainsKey(result.Key))
+                                            response.Validations.Add(result.Key, result.Message);
+                                    }
+
+                                    return response;
+                                }
+                            }
                         }
                     }
                 }
 
                 #endregion Validation
 
+                #region Create
                 using (var ctx = new ChickenScratchContext())
                 {
                     // Set default
+                    customer.Status = "A";
+                    customer.TokenSecret = Guid.NewGuid().ToString();
                     customer.FromDate = DateTime.UtcNow;
                     customer.ToDate = DateTime.UtcNow.AddYears(1);
 
@@ -90,6 +114,8 @@ namespace ChickenScratch.Business
                     response.Result = customer;
                     response.Status = ResponseStatus.Success;
                 }
+
+                #endregion Create
 
                 return response;
             }

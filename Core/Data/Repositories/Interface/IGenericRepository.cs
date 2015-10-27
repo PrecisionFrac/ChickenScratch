@@ -16,9 +16,9 @@ namespace ChickenScratch.Data.Repositories
 
         void Add(E entity);
 
-        void Delete(E entity);
+        void Remove(E entity);
 
-        void Update(E entity);
+        void Entry(E entity);
 
         void Save();
     }

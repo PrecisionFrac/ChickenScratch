@@ -15,7 +15,7 @@ namespace ChickenScratch.Data.Customer
             response = new Response<Model.Customer>();
         }
 
-        public Response<Model.Customer> Add(Model.Customer customer)
+        public Response<Model.Customer> Insert(Model.Customer customer)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace ChickenScratch.Data.Customer
 
         public Model.Customer Update(Model.Customer customer)
         {
-            base.Update(customer);
+            base.Entry(customer);
             return customer;
         }
 
@@ -44,7 +44,7 @@ namespace ChickenScratch.Data.Customer
 
         public void Delete(Model.Customer customer)
         {
-            base.Delete(customer);
+            base.Remove(customer);
         }
     }
 }

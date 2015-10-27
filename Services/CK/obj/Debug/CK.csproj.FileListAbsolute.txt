@@ -33,3 +33,38 @@ M:\OneDrive\Projects\Handwriting\Services\HWServices\bin\ChickenScratch.Data.pdb
 M:\OneDrive\Projects\Handwriting\Services\HWServices\obj\Debug\CK.csprojResolveAssemblyReference.cache
 M:\OneDrive\Projects\Handwriting\Services\HWServices\obj\Debug\ChickenScratch.Services.dll
 M:\OneDrive\Projects\Handwriting\Services\HWServices\obj\Debug\ChickenScratch.Services.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Services.dll.config
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Services.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Services.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Business.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Model.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Util.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\EntityFramework.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\EntityFramework.SqlServer.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\IACore.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\IALoader.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\IAWinFX.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\log4net.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Newtonsoft.Json.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\PayPal.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Data.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Business.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Model.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Util.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\EntityFramework.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\EntityFramework.SqlServer.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\IACore.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\IAWinFX.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\log4net.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\Newtonsoft.Json.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\PayPal.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\bin\ChickenScratch.Data.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\obj\Debug\CK.csprojResolveAssemblyReference.cache
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\obj\Debug\ChickenScratch.Services.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Services\CK\obj\Debug\ChickenScratch.Services.pdb

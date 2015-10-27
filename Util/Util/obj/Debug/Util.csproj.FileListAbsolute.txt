@@ -2,3 +2,12 @@ M:\OneDrive\Projects\Handwriting\Util\Util\bin\Debug\ChickenScratch.Util.dll
 M:\OneDrive\Projects\Handwriting\Util\Util\bin\Debug\ChickenScratch.Util.pdb
 M:\OneDrive\Projects\Handwriting\Util\Util\obj\Debug\ChickenScratch.Util.dll
 M:\OneDrive\Projects\Handwriting\Util\Util\obj\Debug\ChickenScratch.Util.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\ChickenScratch.Util.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\ChickenScratch.Util.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\obj\Debug\ChickenScratch.Util.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\obj\Debug\ChickenScratch.Util.pdb
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+M:\OneDrive\Projects\Precision Frac\Projects\ChickenStretch\Source\Util\Util\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml

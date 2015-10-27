@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="ChickenScratch.Services.API" CodeBehind="API.svc.cs" %>
