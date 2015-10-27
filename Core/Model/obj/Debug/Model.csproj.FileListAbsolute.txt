@@ -1,0 +1,9 @@
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\ChickenScratch.Model.dll
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\ChickenScratch.Model.pdb
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+M:\OneDrive\Projects\Handwriting\Core\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+M:\OneDrive\Projects\Handwriting\Core\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+M:\OneDrive\Projects\Handwriting\Core\Model\obj\Debug\ChickenScratch.Model.dll
+M:\OneDrive\Projects\Handwriting\Core\Model\obj\Debug\ChickenScratch.Model.pdb

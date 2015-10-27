@@ -1,0 +1,616 @@
+2015-10-21 20:30:08,131 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:30:08,153 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:30:08,154 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic X19DTElFTlRfSURfXzpfX0NMSUVOVF9TRUNSRVRfXw==
+2015-10-21 20:30:08,154 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:f58adb5b-10f9-4b35-8107-affd0139eef9
+2015-10-21 20:30:08,575 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:30:09,780 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 20:30:09,780 [13] ERROR PayPal.Api.HttpConnection [(null)] {"error":"invalid_client","error_description":"Client Authentication failed"}
+2015-10-21 20:30:09,780 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (401) Unauthorized.
+2015-10-21 20:30:09,904 [13] ERROR PayPal.PayPalException [(null)] Identity Exception: 
+   Error:   invalid_client
+   Message: Client Authentication failed
+   URI:     
+
+2015-10-21 20:30:34,748 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:30:34,748 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:30:34,748 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic X19DTElFTlRfSURfXzpfX0NMSUVOVF9TRUNSRVRfXw==
+2015-10-21 20:30:34,749 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:13db8168-3056-4535-8cfd-5e4ead51b42b
+2015-10-21 20:30:34,972 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:30:35,712 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 20:30:35,713 [13] ERROR PayPal.Api.HttpConnection [(null)] {"error":"invalid_client","error_description":"Client Authentication failed"}
+2015-10-21 20:30:35,713 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (401) Unauthorized.
+2015-10-21 20:30:35,713 [13] ERROR PayPal.PayPalException [(null)] Identity Exception: 
+   Error:   invalid_client
+   Message: Client Authentication failed
+   URI:     
+
+2015-10-21 20:31:27,780 [3] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:31:27,797 [3] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:31:27,797 [3] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:31:27,797 [3] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:7e42d57f-7e7a-4791-bb04-7da1259576c3
+2015-10-21 20:31:28,033 [3] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:31:29,500 [3] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:31:29,500 [3] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32400}
+2015-10-21 20:31:51,126 [22] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:31:51,127 [22] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:31:51,127 [22] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:31:51,127 [22] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:b829cfc4-e992-4b65-8cd0-be11002afb2e
+2015-10-21 20:31:51,341 [22] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:31:52,055 [22] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:31:52,055 [22] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32377}
+2015-10-21 20:33:02,257 [11] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:33:02,273 [11] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:33:02,273 [11] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:33:02,273 [11] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:051403e7-fe88-47b2-8918-7777cfda727e
+2015-10-21 20:33:02,497 [11] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:33:03,695 [11] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:33:03,695 [11] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32305}
+2015-10-21 20:33:26,797 [18] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:33:26,798 [18] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:33:26,798 [18] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:33:26,799 [18] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:3bdae7d1-8943-4fea-ab0b-a9335083c3a7
+2015-10-21 20:33:27,014 [18] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:33:27,771 [18] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:33:27,771 [18] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32281}
+2015-10-21 20:33:37,331 [19] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:33:37,332 [19] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:33:37,332 [19] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:33:37,332 [19] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:dd89d7aa-2bcc-4ed1-a7fe-2be032c01791
+2015-10-21 20:33:37,546 [19] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:33:38,262 [19] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:33:38,262 [19] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32271}
+2015-10-21 20:34:47,125 [14] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:34:47,143 [14] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:34:47,143 [14] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:34:47,144 [14] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:ade91095-cff8-4699-a432-7c602d807712
+2015-10-21 20:34:47,368 [14] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:34:48,547 [14] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:34:48,548 [14] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32201}
+2015-10-21 20:35:13,477 [6] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:35:13,493 [6] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:35:13,493 [6] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:35:13,493 [6] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:5da4c78f-776a-4277-bdc3-b402d00020b1
+2015-10-21 20:35:13,918 [6] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:35:15,094 [6] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:35:15,094 [6] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32174}
+2015-10-21 20:35:18,910 [14] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:35:18,910 [14] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:35:18,911 [14] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:35:18,911 [14] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:8042dd5d-aecc-4e5b-852a-17f28abbdd16
+2015-10-21 20:35:19,126 [14] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:35:19,846 [14] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:35:19,846 [14] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32169}
+2015-10-21 20:35:40,319 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:35:40,348 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:35:40,348 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:35:40,349 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:fe681a2b-e9cd-4657-a7f5-7e7bda1a3cdc
+2015-10-21 20:35:40,622 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:35:41,851 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:35:41,852 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32147}
+2015-10-21 20:35:47,841 [17] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:35:47,841 [17] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:35:47,842 [17] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:35:47,842 [17] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:e047fb58-c8a7-422c-a46e-814886dda93b
+2015-10-21 20:35:48,069 [17] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:35:48,875 [17] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:35:48,875 [17] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32140}
+2015-10-21 20:36:11,747 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 20:36:11,770 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:36:11,771 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 20:36:11,771 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:63a95830-afd1-406f-bf9f-09a35c47cf5e
+2015-10-21 20:36:11,994 [12] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 20:36:13,311 [12] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 20:36:13,312 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T09:31:25Zbk8heiNXyTjgOV41lheuulMPZKb6N2q2_tqjs7pufQY","access_token":"A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32116}
+2015-10-21 20:36:25,294 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 20:36:25,295 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 20:36:25,295 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.4BgSKCZoZhQsRM31Dc93GQdq-4PbYe4JaLcvGOwZRJ7mIP4vbhy-ISBobfOeTgHu.0NoVHarqtb2LYYrDeDEcQka6_Au
+2015-10-21 20:36:25,295 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:498061a4-8df5-4dcf-8e6e-94d61d4b49b7
+2015-10-21 20:36:25,295 [12] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 20:36:26,069 [12] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 20:36:26,069 [12] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"fdc17ce24667b"}
+2015-10-21 20:36:26,069 [12] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-21 21:45:32,436 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 21:45:32,477 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 21:45:32,477 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 21:45:32,477 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:c32db445-2251-4008-bcdc-c0f60e086744
+2015-10-21 21:45:33,085 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 21:45:35,029 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 21:45:35,030 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T10:45:31ZXGH3zp33K09awHmWFRBaLqsviBHAD_CQzrfOl6RJJl0","access_token":"A101.gISmJrz9X3tIOi4q6H5dtLt8R8j1QvmBSnkfTlo2kl01YF6wPNklExo2efT0CNpz.iHjE0tDu47W2I2jIVRBxZzMACcu","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32400}
+2015-10-21 21:45:40,559 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 21:45:40,559 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 21:45:40,559 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.gISmJrz9X3tIOi4q6H5dtLt8R8j1QvmBSnkfTlo2kl01YF6wPNklExo2efT0CNpz.iHjE0tDu47W2I2jIVRBxZzMACcu
+2015-10-21 21:45:40,560 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:0db9c25f-ce23-41a8-bef8-6acaabef88f5
+2015-10-21 21:45:40,560 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 21:45:41,499 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 21:45:41,499 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"711bb759c054c"}
+2015-10-21 21:45:41,503 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-21 22:37:47,138 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:37:47,155 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:37:47,155 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:37:47,155 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:73def521-1aa8-4672-8d9d-03e34fff0cc9
+2015-10-21 22:37:47,405 [15] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:37:48,698 [15] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:37:48,699 [15] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32399}
+2015-10-21 22:38:15,180 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:38:15,180 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:38:15,180 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:38:15,181 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:5c04459c-a67a-4015-b6b1-9057d48c4b40
+2015-10-21 22:38:15,181 [15] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:38:15,396 [15] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:38:16,154 [15] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:38:16,155 [15] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"9994499e656aa"}
+2015-10-21 22:38:16,155 [15] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:38:43,919 [27] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:38:43,919 [27] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:38:43,920 [27] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:38:43,920 [27] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:2bbf1d76-9276-434b-be8b-1cf87ca202bf
+2015-10-21 22:38:44,142 [27] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:38:44,854 [27] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:38:44,855 [27] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32343}
+2015-10-21 22:38:47,223 [27] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:38:47,223 [27] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:38:47,224 [27] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:38:47,224 [27] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:f2389af0-253f-4aa4-baff-fca910d1c8e2
+2015-10-21 22:38:47,224 [27] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:38:47,431 [27] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:38:48,190 [27] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:38:48,190 [27] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"8f09486d6db78"}
+2015-10-21 22:38:48,190 [27] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:39:03,628 [27] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:39:03,628 [27] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:39:03,629 [27] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:39:03,629 [27] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:13c10dbf-4bad-48f0-b1e9-9405a48894d6
+2015-10-21 22:39:03,854 [27] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:39:04,564 [27] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:39:04,564 [27] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32324}
+2015-10-21 22:39:06,518 [27] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:39:06,518 [27] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:39:06,519 [27] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:39:06,519 [27] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:65f31b13-0638-4d79-80a6-e455c847356b
+2015-10-21 22:39:06,519 [27] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:39:06,728 [27] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:39:07,472 [27] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:39:07,472 [27] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"ed25985cb431a"}
+2015-10-21 22:39:07,473 [27] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:39:38,495 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:39:38,521 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:39:38,523 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:39:38,523 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:e8958e21-ee1f-4d9b-a751-757f831cc3c7
+2015-10-21 22:39:38,741 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:39:39,882 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:39:39,882 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32288}
+2015-10-21 22:39:41,601 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:39:41,601 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:39:41,602 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:39:41,602 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:b6db313c-04fb-46d9-9d8b-5dff2a8b48ad
+2015-10-21 22:39:41,602 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:39:41,811 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:39:42,553 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:39:42,553 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"7ede73a9c744e"}
+2015-10-21 22:39:42,553 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:40:08,054 [16] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:40:08,054 [16] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:40:08,054 [16] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:40:08,055 [16] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:9da1cf54-788e-4fa4-8aab-09cd91e72b0b
+2015-10-21 22:40:08,270 [16] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:40:08,958 [16] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:40:08,958 [16] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32259}
+2015-10-21 22:40:09,924 [16] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:40:09,924 [16] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:40:09,924 [16] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:40:09,924 [16] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:b084bdb3-e30f-4b5c-84ae-6fdc4243e677
+2015-10-21 22:40:09,925 [16] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:40:10,144 [16] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:40:10,920 [16] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:40:10,921 [16] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"eb2dadd229454"}
+2015-10-21 22:40:10,921 [16] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:40:44,941 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:40:44,959 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:40:44,959 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:40:44,960 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:11dafa45-7c13-4b67-adf6-9cb9aeba9e80
+2015-10-21 22:40:45,198 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:40:46,377 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:40:46,377 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32222}
+2015-10-21 22:40:47,752 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:40:47,752 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:40:47,753 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:40:47,753 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:e3301880-8207-4385-889d-fd9afae01fed
+2015-10-21 22:40:47,753 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:40:47,961 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:40:48,716 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:40:48,717 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"7fcf7b65edd44"}
+2015-10-21 22:40:48,717 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:42:39,494 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:42:39,512 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:42:39,512 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:42:39,512 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:c5399bb9-81ff-4466-9dad-dec579afb8c6
+2015-10-21 22:42:39,731 [12] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:42:40,885 [12] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:42:40,886 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32107}
+2015-10-21 22:42:42,257 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:42:42,257 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:42:42,257 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:42:42,258 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:d684e630-5434-4231-b8ec-70157f910f50
+2015-10-21 22:42:42,258 [12] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:42:42,474 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:42:43,245 [12] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:42:43,245 [12] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"c2281a007a8d3"}
+2015-10-21 22:42:43,246 [12] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 22:44:39,177 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 22:44:39,194 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:44:39,194 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 22:44:39,194 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:6e5dbfe2-5f20-462e-9a76-693208c228dd
+2015-10-21 22:44:39,438 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 22:44:40,598 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 22:44:40,598 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T11:37:44ZXXyxlEDy2uS9pWg4LUWNu6hFm89xewYh5SeCaYyaPJg","access_token":"A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31988}
+2015-10-21 22:44:43,019 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 22:44:43,019 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 22:44:43,019 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.brTEvztA9oOmRWHtP5_IQ_zrzPhEPGbab762N8f-RlbRryBHFo1nsaLGIn9FcPao.9py1Hf22ZJV1uXhZiYpvd9SnqUi
+2015-10-21 22:44:43,019 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:c0faf8b8-c0c5-481b-88eb-d332c0a89971
+2015-10-21 22:44:43,019 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 22:44:43,232 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4417119669820435","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 22:44:44,001 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 22:44:44,002 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"payer.funding_instruments[0].credit_card.number","issue":"Value is invalid"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR","debug_id":"c7b24403c230"}
+2015-10-21 22:44:44,002 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 22:44:44,044 [13] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR
+   Debug ID: c7b24403c230
+   Details:  payer.funding_instruments[0].credit_card.number -> Value is invalid
+
+2015-10-21 23:18:42,963 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:18:42,983 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:18:42,983 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:18:42,983 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:7a4d47e5-0677-4b5b-b724-10758ba557d3
+2015-10-21 23:18:43,225 [15] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:18:44,523 [15] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:18:44,523 [15] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32400}
+2015-10-21 23:18:50,985 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:18:50,985 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:18:50,985 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:18:50,985 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:5289ca1d-2b17-42c1-b2ce-66024200297e
+2015-10-21 23:18:50,985 [15] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:18:51,207 [15] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"4417119669820435","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:18:51,906 [15] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:18:51,906 [15] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"number","issue":"Value is invalid"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"69e3ef9f31378"}
+2015-10-21 23:18:51,906 [15] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:18:51,971 [15] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: 69e3ef9f31378
+   Details:  number -> Value is invalid
+
+2015-10-21 23:21:23,913 [10] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:21:23,950 [10] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:21:23,950 [10] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:21:23,950 [10] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:020e9543-6383-489f-a601-df745f7e6201
+2015-10-21 23:21:24,179 [10] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:21:25,378 [10] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:21:25,378 [10] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32239}
+2015-10-21 23:21:28,791 [10] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:21:28,791 [10] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:21:28,791 [10] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:21:28,792 [10] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:72dce60e-0bcd-4e32-be99-20d2d0ac64f9
+2015-10-21 23:21:28,792 [10] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:21:29,004 [10] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"44171196698202423","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"line1":"111 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:21:29,717 [10] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:21:29,718 [10] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"number","issue":"Value is invalid"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"c09a52f0f3cd5"}
+2015-10-21 23:21:29,718 [10] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:21:29,783 [10] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: c09a52f0f3cd5
+   Details:  number -> Value is invalid
+
+2015-10-21 23:34:22,909 [7] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:34:22,933 [7] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:34:22,933 [7] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:34:22,933 [7] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:b18d7138-485f-44d6-8908-0fa94822cf13
+2015-10-21 23:34:23,174 [7] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:34:24,351 [7] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:34:24,351 [7] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31460}
+2015-10-21 23:34:29,608 [7] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:34:29,609 [7] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:34:29,609 [7] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:34:29,609 [7] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:79182ea7-7d0c-4616-8fc7-35dde3016152
+2015-10-21 23:34:29,609 [7] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:34:29,824 [7] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"44171196698202423","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"phone":"1231231","line1":"1 First Street","line2":"","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA","normalization_status":"adasd","status":"OK"}}
+2015-10-21 23:34:30,519 [7] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:34:30,519 [7] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"number","issue":"Value is invalid"},{"field":"billing_address.normalization_status","issue":"This field name is not defined for this resource type"},{"field":"billing_address.line2","issue":"Must not be blank"},{"field":"billing_address.status","issue":"This field name is not defined for this resource type"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"432ee9aac6286"}
+2015-10-21 23:34:30,519 [7] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:34:30,570 [7] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: 432ee9aac6286
+   Details:  number -> Value is invalid
+   Details:  billing_address.normalization_status -> This field name is not defined for this resource type
+   Details:  billing_address.line2 -> Must not be blank
+   Details:  billing_address.status -> This field name is not defined for this resource type
+
+2015-10-21 23:35:43,914 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:35:43,932 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:35:43,933 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:35:43,933 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:5ab635ea-c8e0-4e70-b872-b277a253083e
+2015-10-21 23:35:44,155 [12] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:35:45,305 [12] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:35:45,306 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31379}
+2015-10-21 23:35:49,006 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:35:49,006 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:35:49,007 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:35:49,007 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:0004c519-349a-4e7b-9d63-5f25b3a6b9f6
+2015-10-21 23:35:49,007 [12] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:35:49,227 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"44171196698202411","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:35:49,932 [12] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:35:49,932 [12] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"number","issue":"Value is invalid"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"98095f06328a7"}
+2015-10-21 23:35:49,932 [12] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:35:49,993 [12] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: 98095f06328a7
+   Details:  number -> Value is invalid
+
+2015-10-21 23:37:51,193 [19] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:37:51,193 [19] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:37:51,193 [19] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:37:51,194 [19] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:3a3145db-2849-427f-8793-1fc2fb8b2e97
+2015-10-21 23:37:51,414 [19] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:37:52,123 [19] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:37:52,124 [19] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31252}
+2015-10-21 23:37:53,348 [19] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:37:53,349 [19] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:37:53,349 [19] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:37:53,349 [19] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:28710e83-6726-461c-bc98-3f7390066cf1
+2015-10-21 23:37:53,349 [19] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:37:53,568 [19] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"44171196698202411","type":"visa","expire_month":11,"expire_year":2018,"cvv2":"874","first_name":"Betsy","last_name":"Buyer","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:37:54,275 [19] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:37:54,275 [19] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"number","issue":"Value is invalid"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"546d6cf084624"}
+2015-10-21 23:37:54,276 [19] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:37:54,276 [19] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: 546d6cf084624
+   Details:  number -> Value is invalid
+
+2015-10-21 23:45:13,607 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:45:13,632 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:45:13,633 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:45:13,634 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:31a42e0d-2c37-42f9-ba81-f7e8018106f4
+2015-10-21 23:45:13,874 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:45:14,999 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:45:14,999 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30809}
+2015-10-21 23:45:17,507 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:45:17,507 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:45:17,507 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:45:17,507 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:8676c8b5-dbd0-4370-b2b6-70a39ad32d0f
+2015-10-21 23:45:17,508 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:45:17,920 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"376480567735006","type":"AmericanExpress","expire_month":10,"expire_year":2016,"cvv2":"4960","first_name":"Rafael","last_name":"Aguiar","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:45:18,620 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:45:18,621 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"type","issue":"Value is invalid (must be visa, mastercard, amex, discover, maestro, or jcb)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/#VALIDATION_ERROR","debug_id":"d4014751daff3"}
+2015-10-21 23:45:18,621 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:45:18,651 [13] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/#VALIDATION_ERROR
+   Debug ID: d4014751daff3
+   Details:  type -> Value is invalid (must be visa, mastercard, amex, discover, maestro, or jcb)
+
+2015-10-21 23:45:54,078 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:45:54,105 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:45:54,106 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:45:54,106 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:75ab4ea2-315c-443c-9359-6c30e36c44c1
+2015-10-21 23:45:54,332 [12] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:45:55,495 [12] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:45:55,495 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30769}
+2015-10-21 23:45:58,012 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:45:58,013 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:45:58,013 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:45:58,013 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:50f0fc00-b403-4c8c-8d97-22473e134e5b
+2015-10-21 23:45:58,014 [12] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:45:58,227 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"number":"376480567735006","type":"amex","expire_month":10,"expire_year":2016,"cvv2":"4960","first_name":"Rafael","last_name":"Aguiar","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}
+2015-10-21 23:45:59,023 [12] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:45:59,023 [12] DEBUG PayPal.Api.HttpConnection [(null)] {"id":"CARD-31X88300DC160521LKYTYSAY","state":"ok","type":"amex","number":"xxxxxxxxxxx5006","expire_month":"10","expire_year":"2016","first_name":"Rafael","last_name":"Aguiar","billing_address":{"line1":"1 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US","phone":"1231231"},"valid_until":"2018-10-20T00:00:00Z","create_time":"2015-10-21T12:45:55Z","update_time":"2015-10-21T12:45:55Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-cards/CARD-31X88300DC160521LKYTYSAY","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-cards/CARD-31X88300DC160521LKYTYSAY","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-cards/CARD-31X88300DC160521LKYTYSAY","rel":"patch","method":"PATCH"}]}
+2015-10-21 23:51:52,104 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:51:52,124 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:51:52,125 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:51:52,125 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:d179ed54-d8ab-4118-9689-0a79ddbb1c33
+2015-10-21 23:51:52,387 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:51:53,605 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:51:53,605 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30411}
+2015-10-21 23:51:57,453 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:51:57,454 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:51:57,454 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:51:57,455 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:47d52e1b-3921-47e7-9631-9415b90bc9ef
+2015-10-21 23:51:57,674 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:51:58,388 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:51:58,389 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30406}
+2015-10-21 23:52:03,972 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:52:03,973 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:52:03,974 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:52:03,974 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:7e91d9ae-daf1-4b8e-9078-6cc75b6f70eb
+2015-10-21 23:52:03,974 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:52:04,188 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4032035304110067","type":"visa","expire_month":11,"expire_year":2020,"cvv2":"4960","first_name":"Rafael","last_name":"Aguiar","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 23:52:04,955 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:52:04,956 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"VALIDATION_ERROR","details":[{"field":"payer.funding_instruments[0].credit_card","issue":"The cvv2 length is invalid for the specified credit card type"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR","debug_id":"6fed83728761"}
+2015-10-21 23:52:04,957 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (400) Bad Request.
+2015-10-21 23:52:05,021 [13] ERROR PayPal.PayPalException [(null)] Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR
+   Debug ID: 6fed83728761
+   Details:  payer.funding_instruments[0].credit_card -> The cvv2 length is invalid for the specified credit card type
+
+2015-10-21 23:52:49,651 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:52:49,674 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:52:49,674 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:52:49,674 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:9bd7393b-da94-44be-b63e-02e655db88b6
+2015-10-21 23:52:49,903 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:52:51,043 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:52:51,043 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30353}
+2015-10-21 23:52:53,625 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:52:53,625 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:52:53,625 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:52:53,626 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:dc34a208-93f1-4769-91cb-7f0ded2df87f
+2015-10-21 23:52:53,835 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:52:54,574 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:52:54,574 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30350}
+2015-10-21 23:52:55,677 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:52:55,678 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:52:55,678 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:52:55,678 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:cc0acf59-c138-40f2-9172-2a62bec62e31
+2015-10-21 23:52:55,678 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:52:55,886 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4032035304110067","type":"visa","expire_month":11,"expire_year":2020,"cvv2":"496","first_name":"Rafael","last_name":"Aguiar","billing_address":{"phone":"1231231","line1":"1 First Street","city":"Saratoga","country_code":"US","postal_code":"95070","state":"CA"}}}]}}
+2015-10-21 23:52:56,632 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:52:56,634 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"fc0a2e84cf4f3"}
+2015-10-21 23:52:56,634 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 23:55:02,155 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:55:02,173 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:55:02,174 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:55:02,174 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:4d1e775e-8d39-460e-a7a6-e2f5458b7d1d
+2015-10-21 23:55:02,397 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:55:03,535 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:55:03,536 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30221}
+2015-10-21 23:55:10,129 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:55:10,129 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:55:10,129 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:55:10,129 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:a543c004-7e20-44ad-ad6d-b6326952c84b
+2015-10-21 23:55:10,130 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:55:10,345 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4032035304110067","type":"visa","expire_month":11,"expire_year":2020}}]}}
+2015-10-21 23:55:11,116 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:55:11,117 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"63cc32e74fdea"}
+2015-10-21 23:55:11,117 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-21 23:57:53,176 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-21 23:57:53,211 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:57:53,212 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-21 23:57:53,212 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:78789f0f-aedc-4da2-ad8a-69e0939502ac
+2015-10-21 23:57:53,449 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-21 23:57:54,573 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-21 23:57:54,573 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-21T12:18:40Z5ez9GMHIPPJd--HB74U6xeAnT8D9_9YId3XR7Ouylf0","access_token":"A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30050}
+2015-10-21 23:57:59,546 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-21 23:57:59,546 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-21 23:57:59,546 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.3THwpo9tnuKa2XKjURuYvb8AXVHlJmPSzN4oU-DMckdQaX7NRgRsAR-qnuONL47t.i8yY-uBQw8kbneGiG3gjKK5TKYi
+2015-10-21 23:57:59,546 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:970a95b0-5bb6-4171-8bb3-e13f64088cb5
+2015-10-21 23:57:59,547 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-21 23:57:59,755 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"credit_card":{"number":"4032036390019741","type":"visa","expire_month":11,"expire_year":2020}}]}}
+2015-10-21 23:58:00,515 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-21 23:58:00,516 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INTERNAL_SERVICE_ERROR","debug_id":"f5d3f94aaf6ce"}
+2015-10-21 23:58:00,516 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (500) Internal Server Error.
+2015-10-22 23:07:36,696 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:07:36,750 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:07:36,751 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:07:36,751 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:0964649a-baa9-4e07-9d9d-2a6b48021616
+2015-10-22 23:07:41,108 [15] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:07:47,384 [15] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:07:47,384 [15] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32400}
+2015-10-22 23:07:47,528 [15] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:07:47,528 [15] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:07:47,528 [15] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:07:47,528 [15] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:a15a7ca5-8b0a-45eb-96fc-e0c27688dd0a
+2015-10-22 23:07:47,532 [15] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:07:51,513 [15] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-22 23:07:51,513 [15] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"967e41a534a36"}
+2015-10-22 23:07:51,513 [15] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-22 23:20:22,924 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:20:22,951 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:20:22,951 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:20:22,951 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:272e623c-5220-4bf5-8e0a-7ea3e15a75d4
+2015-10-22 23:20:29,940 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:20:46,035 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:20:46,035 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31627}
+2015-10-22 23:20:46,165 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:20:46,166 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:20:46,166 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:20:46,166 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:e4c85fd9-6266-4f4e-99cb-3eb996ff073d
+2015-10-22 23:20:46,166 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:20:51,855 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-22 23:20:51,855 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"e035690ac842e"}
+2015-10-22 23:20:51,855 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-22 23:22:20,380 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:22:20,409 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:22:20,409 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:22:20,409 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:89bcff8f-46f4-4414-9e90-fa5af81d7c6d
+2015-10-22 23:22:22,518 [13] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:22:36,017 [13] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:22:36,017 [13] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31516}
+2015-10-22 23:22:36,121 [13] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:22:36,121 [13] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:22:36,121 [13] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:22:36,121 [13] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:02795c9f-1664-4dec-8562-e5693eaf27a3
+2015-10-22 23:22:36,121 [13] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:22:41,096 [13] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-22 23:22:41,096 [13] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"cff7dc7649a01"}
+2015-10-22 23:22:41,100 [13] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-22 23:31:24,631 [12] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:31:24,657 [12] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:31:24,657 [12] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:31:24,657 [12] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:c4b44e2c-82db-4248-918d-60e157728cb0
+2015-10-22 23:31:30,354 [12] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:31:54,717 [12] ERROR PayPal.Api.HttpConnection [(null)] The operation has timed out
+2015-10-22 23:31:54,721 [12] ERROR PayPal.PayPalException [(null)] Connection Exception: The operation has timed out (HTTP request timeout was set to 30000ms)
+PayPal.ConnectionException: The operation has timed out (HTTP request timeout was set to 30000ms)
+2015-10-22 23:32:33,261 [16] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:32:33,265 [16] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:32:33,265 [16] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:32:33,265 [16] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:b7c9babc-2c60-4be3-9dac-c22dcfc349f2
+2015-10-22 23:32:34,476 [16] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:33:03,278 [16] ERROR PayPal.Api.HttpConnection [(null)] The operation has timed out
+2015-10-22 23:33:03,278 [16] ERROR PayPal.PayPalException [(null)] Connection Exception: The operation has timed out (HTTP request timeout was set to 30000ms)
+PayPal.ConnectionException: The operation has timed out (HTTP request timeout was set to 30000ms)
+2015-10-22 23:34:50,782 [24] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:34:50,782 [24] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:34:50,783 [24] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:34:50,783 [24] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:9e387603-c5e4-49ff-8ff7-c5731bf91776
+2015-10-22 23:34:51,613 [24] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:34:58,093 [24] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:34:58,093 [24] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30770}
+2015-10-22 23:34:58,253 [24] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:34:58,257 [24] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:34:58,257 [24] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:34:58,257 [24] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:61d44417-b2dc-446c-88c2-cf5312bb3ec9
+2015-10-22 23:34:58,257 [24] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:35:28,274 [24] ERROR PayPal.Api.HttpConnection [(null)] The operation has timed out
+2015-10-22 23:35:28,274 [24] ERROR PayPal.PayPalException [(null)] Connection Exception: The operation has timed out (HTTP request timeout was set to 30000ms)
+PayPal.ConnectionException: The operation has timed out (HTTP request timeout was set to 30000ms)
+2015-10-22 23:35:51,172 [26] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:35:51,173 [26] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:35:51,173 [26] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:35:51,173 [26] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:d89cab31-c76b-4b57-a49f-dd425a32f233
+2015-10-22 23:35:52,212 [26] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:35:59,476 [26] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:35:59,476 [26] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30708}
+2015-10-22 23:35:59,477 [26] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:35:59,477 [26] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:35:59,477 [26] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:35:59,478 [26] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:67fac9e5-eb41-4b0d-a02c-01bfabfe6311
+2015-10-22 23:35:59,478 [26] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:36:29,504 [26] ERROR PayPal.Api.HttpConnection [(null)] The operation has timed out
+2015-10-22 23:36:29,505 [26] ERROR PayPal.PayPalException [(null)] Connection Exception: The operation has timed out (HTTP request timeout was set to 30000ms)
+PayPal.ConnectionException: The operation has timed out (HTTP request timeout was set to 30000ms)
+2015-10-22 23:36:59,299 [22] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-22 23:36:59,300 [22] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:36:59,300 [22] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-22 23:36:59,300 [22] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:baaedc34-bc79-450f-b14b-f79db065113e
+2015-10-22 23:37:04,871 [22] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-22 23:37:07,774 [22] DEBUG PayPal.Api.HttpConnection [(null)] Service response: 
+2015-10-22 23:37:07,774 [22] DEBUG PayPal.Api.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","nonce":"2015-10-22T12:07:42ZIyX9g2NGtrjD2WkMNFXFC5AAPBs6_9xGC2_sLeDIFIA","access_token":"A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":30640}
+2015-10-22 23:37:07,775 [22] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/json
+2015-10-22 23:37:07,775 [22] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-22 23:37:07,775 [22] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Bearer A101.fgAmGiXiRqdZqpnPSR_5CromJNebVGmQzUK_ezsimguj7hg5vVcFry2UA4K1dqT3.TTL_zWJfJqQCHQi6zud0yCl-Ac0
+2015-10-22 23:37:07,775 [22] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:01abc059-26f2-4ee8-a602-de5fab52dbb5
+2015-10-22 23:37:07,776 [22] DEBUG PayPal.Api.PayPalResource [(null)] XX-Company:ChickenScratch
+2015-10-22 23:37:10,899 [22] ERROR PayPal.Api.HttpConnection [(null)] Error response:
+2015-10-22 23:37:10,900 [22] ERROR PayPal.Api.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID","debug_id":"9cb2e541585c7"}
+2015-10-22 23:37:10,900 [22] ERROR PayPal.Api.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2015-10-23 19:38:51,687 [16] DEBUG PayPal.Api.PayPalResource [(null)] Content-Type:application/x-www-form-urlencoded
+2015-10-23 19:38:51,734 [16] DEBUG PayPal.Api.PayPalResource [(null)] User-Agent:PayPalSDK/PayPal-NET-SDK 1.6.0 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.10240.0)
+2015-10-23 19:38:51,734 [16] DEBUG PayPal.Api.PayPalResource [(null)] Authorization:Basic QVpLR0tsVkJRckNTVm53VEZEdENjeUJWeDNCdW5lS2hPUVhmRy1TdGtnbEF0cFlsX1o4UjIwU2o3MkhlSE9PLS0wTFkwM2ZIeVc5RnUyZ0s6RUVsRXpKLXJ2Z1NTazl6QkwwSHlZblFvaXl2TE55aG51OHZkRGM1YWFEbnQtSVdLcVEtWGFjZlFhWEZxM25iNE5yRmJpQ0lNb0pNTElmaE4=
+2015-10-23 19:38:51,734 [16] DEBUG PayPal.Api.PayPalResource [(null)] PayPal-Request-Id:3a35c709-a1b4-4194-85c8-2148f9a88149
+2015-10-23 19:39:02,508 [16] DEBUG PayPal.Api.HttpConnection [(null)] grant_type=client_credentials
+2015-10-23 19:39:21,772 [16] ERROR PayPal.Api.HttpConnection [(null)] The operation has timed out
+2015-10-23 19:39:21,773 [16] ERROR PayPal.PayPalException [(null)] Connection Exception: The operation has timed out (HTTP request timeout was set to 30000ms)
+PayPal.ConnectionException: The operation has timed out (HTTP request timeout was set to 30000ms)

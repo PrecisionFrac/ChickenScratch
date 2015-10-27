@@ -1,0 +1,4 @@
+M:\OneDrive\Projects\Handwriting\Util\Util\bin\Debug\ChickenScratch.Util.dll
+M:\OneDrive\Projects\Handwriting\Util\Util\bin\Debug\ChickenScratch.Util.pdb
+M:\OneDrive\Projects\Handwriting\Util\Util\obj\Debug\ChickenScratch.Util.dll
+M:\OneDrive\Projects\Handwriting\Util\Util\obj\Debug\ChickenScratch.Util.pdb

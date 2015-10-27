@@ -1,0 +1,11 @@
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\ChickenScratch.Business.dll
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\ChickenScratch.Business.pdb
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\log4net.dll
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\Newtonsoft.Json.dll
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\PayPal.dll
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\log4net.xml
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\Newtonsoft.Json.xml
+M:\OneDrive\Projects\Handwriting\Core\Business\bin\Debug\PayPal.xml
+M:\OneDrive\Projects\Handwriting\Core\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+M:\OneDrive\Projects\Handwriting\Core\Business\obj\Debug\ChickenScratch.Business.dll
+M:\OneDrive\Projects\Handwriting\Core\Business\obj\Debug\ChickenScratch.Business.pdb

@@ -1,0 +1,144 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<canvas id="myCanvas" style="border: 1px solid green;"></canvas>
+<div style="margin-top: 30px;">
+    <div style="border: 1px solid black;">
+
+    </div>
+    <div style="border: 1px solid red; text-align:center; margin-top: 30px;">
+        <button id="submitBtn">Submit</button>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<script language="javascript" type="text/javascript">
+    board = {
+        isDrawing: false,
+        surface: null,
+
+        setup: function () {
+            var myCanvas = document.getElementById('myCanvas')
+            myCanvas.width = window.innerWidth - 25;
+            myCanvas.height = window.innerHeight - 25;
+            this.surface = myCanvas.getContext('2d');
+            this.surface.lineWidth = 5;
+            this.surface.strokeStyle = '#0000ff';
+        },
+
+        beginDraw: function (x, y) {
+            this.surface.beginPath();
+            this.surface.moveTo(x, y);
+
+            this.isDrawing = true;
+        },
+
+        draw: function (x, y) {
+            this.surface.lineTo(x, y);
+            this.surface.stroke();
+        },
+
+        endDraw: function () {
+            this.isDrawing = false;
+        }
+    };
+
+    var strokesHistory = {
+        Strokes: []
+    };
+
+    var currentStroke = {
+        Points: []
+    };
+
+    board.setup();
+
+    var myCanvas = document.getElementById('myCanvas');
+
+    myCanvas.onmousedown = myCanvas.ontouchstart = function (e) {
+        var xy = getInputCoordinates(e);
+
+        currentStroke.Points.push({ X: xy.x, Y: xy.y });
+
+        board.beginDraw(xy.x, xy.y);
+    };
+
+    myCanvas.onmousemove = myCanvas.ontouchmove = function (e) {
+        if (board.isDrawing === true) {
+            var xy = getInputCoordinates(e);
+
+            currentStroke.Points.push({ X: xy.x, Y: xy.y });
+            board.draw(xy.x, xy.y);
+        }
+    };
+
+    myCanvas.onmouseup = myCanvas.ontouchend = function (e) {
+        strokesHistory.Strokes.push(currentStroke);
+        currentStroke = { Points: [] };
+        board.endDraw();
+    };
+
+    function getInputCoordinates(e) {
+        var x, y;
+
+        if (e.changedTouches) {
+            var touchData = e.changedTouches[0];
+            x = touchData.clientX;
+            y = touchData.clientY;
+            e.preventDefault();
+        }
+        else {
+            x = e.clientX;
+            y = e.clientY;
+        }
+
+        return { x: x, y: y };
+    }
+
+    $('#submitBtn').click(function () {
+
+        var result = '';
+        var uri = '/api/Recognition/Recognize/';
+        var strokes = JSON.stringify(strokesHistory);
+
+        //$.ajax({
+        //    url: uri,
+        //    type: 'GET',
+        //    contentType: 'application/json; charset=utf-8',
+        //    dataType: 'json',
+        //    success: function (response) {
+        //        //  $('#raspuns').text(JSON.stringify(response));
+        //        alert('Response is OK');
+        //    }
+        //});
+
+        var source = {
+            'Json': strokes
+        }
+
+        $.ajax({
+            url: uri,
+            type: 'POST',
+            contentType: 'application/json',
+            dataType: 'json',
+            data: JSON.stringify(source),
+            success: function (data) {
+                alert(JSON.stringify(data));
+            },
+            error: function (data) {
+                alert('error');
+
+            }
+        });
+
+        //$.get(uri, function (data) {
+        //    alert('FOI');
+        //});
+
+        //$.post(uri,
+        //        { data: JSON.stringify({ title: "fghfdhgfdgfd" }) },
+        //        function (result) {
+        //            alert(result);
+        //        });
+    });
+</script>
